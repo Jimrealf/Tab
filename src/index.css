@@ -44,6 +44,7 @@ button:hover {
 }
 
 button {
+  font-size: 14px;
   background: transparent;
   border-color: transparent;
   letter-spacing: 1px;
@@ -53,15 +54,11 @@ button {
   color: #000;
 }
 
-.active {
+.active, button:hover {
   color: #14b8a6;
   border-left: 2px solid #14b8a6;
 }
 
-Button:hover {
-  color: #14b8a6;
-  border-left: 2px solid #14b8a6;
-}
 
 h1 {
   font-size: 1.953rem;
@@ -134,6 +131,7 @@ span {
 
   button {
     padding: 0;
+
   }
 
   .active, Button:hover {
